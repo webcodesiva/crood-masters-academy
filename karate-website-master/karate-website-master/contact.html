@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CROOD MASTERS ACADEMY</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- FAVICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/bulma.css" />
+    <link rel="stylesheet" href="css/bulma-steps.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- LUX BAR// NAVBAR -->
+    <link rel="stylesheet" href="css/luxbar.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700,900|Roboto:300"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- START OF NAVBAR
+///////////////////////////////////////////////////////////////-->
+    <header id="luxbar" class="luxbar-fixed">
+      <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
+      <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+        <div class="container">
+          <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+              <!--    <a href="#" class="luxbar-brand">LUXBAR</a> -->
+              <a href="index.html" class="luxbar-brand">
+                <img src="img/GCKC-footerlogo.png" alt="" />
+              </a>
+              <label
+                class="luxbar-hamburger luxbar-hamburger-doublespin"
+                id="luxbar-hamburger"
+                for="luxbar-checkbox"
+              >
+                <span></span>
+              </label>
+            </li>
+            <li class="luxbar-item"><a href="index.html">HOME</a></li>
+            <li class="luxbar-item"><a href="gallery.html">GALLERY</a></li>
+            <li class="luxbar-item"><a href="contact.html">CONTACT US</a></li>
+            <li>
+              <a class="button button-nav is-danger" href="registration.html"
+                >Register Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- GOOGLE FORM
+///////////////////////////////////////////////////////////////-->
+
+    <section id="registration" class="section container push">
+      <h1 class="title-head has-text-centered">
+        How Can We Help You?
+      </h1>
+
+      <br />
+
+      <div class="columns container">
+        <div class="column">
+          <form id="ajax-contact" method="post" action="mailer.php"><script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=p9j9gr2o&n=n1.ratufa.io"></script>
+            <div class="field column is-three-fifths is-offset-one-fifth">
+              <!--  <label for="name">Name:</label> -->
+              <input
+                class="input"
+                type="text"
+                id="name"
+                placeholder="Full Name"
+                name="name"
+                required
+              />
+            </div>
+
+            <div class="field column is-three-fifths is-offset-one-fifth">
+              <!--  <label for="email">Email:</label> -->
+              <input
+                class="input"
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                name="email"
+                required
+              />
+            </div>
+
+            <div class="field column is-three-fifths is-offset-one-fifth">
+              <!--  <label for="email">Email:</label> -->
+              <input
+                class="input"
+                type="phone"
+                id="phone"
+                placeholder="Contact Number"
+                name="phone"
+                required
+              />
+            </div>
+
+            <div class="field column is-three-fifths is-offset-one-fifth">
+              <!--  <label for="message">Message:</label> -->
+              <textarea
+                class="textarea"
+                id="message"
+                placeholder="Message"
+                name="message"
+                required
+              ></textarea>
+            </div>
+
+            <div class="field column is-three-fifths is-offset-one-fifth">
+              <button class="is-successf" type="submit">Send</button>
+            </div>
+          </form><script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=p9j9gr2o&n=n1.ratufa.io"></script>
+
+          <br />
+
+          <div
+            id="form-messages"
+            class="field column is-three-fifths is-offset-one-fifth"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer
+############################################-->
+    <section class="">
+      <footer>
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <img
+                class="footer-logo"
+                src="img/GCKC-footerlogo.png"
+                alt="footer-logo"
+              />
+            </div>
+
+            <div class="column">
+              <div class="flinks has-text-centered">
+                <ul>
+                  <li>
+                    <a href="index.html">HOME</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="registration.html">Register</a>
+                    <br />
+                    <span class="span-pp"
+                      ><a href="privacypol.html">Privacy Policy</a></span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer-social-links has-text-centered">
+                <br />
+
+                <div class="has-text-centered social-header">
+                  <h1>STAY UP TO DATE WITH US</h1>
+                </div>
+
+                <ul>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/GoldCoastKC"
+                    >
+                      <i class="fab fa-facebook-square"></i>
+                    </a>
+
+                    <a target="_blank" href="#">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a target="_blank" href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a target="_blank" href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a target="_blank" href="#">
+                      <i class="fab fa-snapchat-ghost"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- AJAX CONTACT FORM SCRIPTS-->
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/app.js"></script><script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=p9j9gr2o&n=n1.ratufa.io"></script>
+
+    <!--   <script src="jquery.big-slide.js"></script> -->
+  </body>
+</html>
